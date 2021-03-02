@@ -188,40 +188,6 @@ table {
     }
 }
 
-.events-section {
-    padding: 5px 15px 20px;
-    .events-header {
-        @include flex-container($justify-content: space-between, $flex-direction: row, $align-items: center);
-        padding: 10px 0;
-    }
-    table {
-        th {
-            padding:0.73rem !important;
-        }
-        td {
-            padding:0.73rem !important;
-        }
-    }
-    .table-events-holder {
-        height: 315px;
-        overflow-y: auto;
-        table {
-            tbody {
-                tr {
-                    td {
-                        border-top: 2px dotted $table-border-color;
-                    }
-                }
-            }
-        }
-    }
-    .event-image-holder {
-        @include flex-container($justify-content: flex-start, $flex-direction: row, $align-items: flex-start);
-        .image-holder {
-            display: block;
-            margin-right : 15px;
-        }
-    }
-}
+
 
 

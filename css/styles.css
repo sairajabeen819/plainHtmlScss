@@ -34,7 +34,7 @@
         font-size: 11px;
         padding-left: 8px; }
         .header-container .logo-bar .logo-section ul li {
-          border-right: 2px solid #ffffff;
+          border-right: 1px solid #ffffff;
           padding: 0 10px; }
           .header-container .logo-bar .logo-section ul li:last-child {
             border-right: 0; }
